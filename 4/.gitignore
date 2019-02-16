@@ -1,0 +1,8 @@
+# CSV files uploaded to Kaggle
+*.csv
+
+data/
+output/
+
+# Various graph outputs
+*.png
