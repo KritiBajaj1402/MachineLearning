@@ -8,8 +8,8 @@ import matplotlib.pyplot as plt
 from common import read_data, save
 
 
-X, y, m, n = read_data("data/weightedX.csv",
-                       "data/weightedY.csv")
+X, y, m, n = read_data("weightedX.csv",
+                       "weightedY.csv")
 
 # Find some query points in the range of x
 s = np.amin(X[:, 1])
